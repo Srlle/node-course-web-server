@@ -54,7 +54,7 @@ app.get('/about', (req, res) => {
 app.get('/projects', (req, res) => {
   res.render('projects.hbs', {
     pageTitle: 'Projects page',
-    placeholder: 'Project portfolio coming here.'
+    paragraphText: 'Project portfolio coming here.'
   });
 });
 
